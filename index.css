@@ -1,0 +1,56 @@
+.click{
+  cursor: pointer;
+}
+
+#wrap{
+  min-width: 1190px;
+}
+
+#header{
+  height: 160px;
+  background-color: #fff;
+}
+
+.header-top{
+  position: relative;
+  width: 1180px;
+  margin: 0 auto;
+  height: 100px;
+  background-color: blue;
+}
+
+.service-area{
+  position: absolute;
+  display: flex;
+  width: 275px;
+  background-color: red;
+  font-size: 12px;
+  line-height: 16px;
+  top: 12px;
+  right: 0;
+}
+
+.service-area-margin{
+  margin: 0 7px;
+}
+
+.service-area-margin:first-child{
+  margin-left: 0px;
+}
+
+.service-area-margin:last-child{
+  margin: 0px;
+}
+
+.service-area-icon-place{
+  height: 16px;
+  width: 16px;
+  background-color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 0px 0px 2px #000;
+}
+
+/*.service-icon{
+  
+}*/
