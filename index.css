@@ -31,7 +31,8 @@
 .service-area{
   position: absolute;
   display: flex;
-  width: 275px;
+  width: 270px;
+  height: 20px;
   /*background-color: red;*/
   font-size: 12px;
   line-height: 16px;
