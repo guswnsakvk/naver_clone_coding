@@ -178,20 +178,28 @@
 }
 
 .container{
+  border-bottom: solid 2px #eee;
+}
+
+.contents{
   width: 1100px;
   margin: 0 auto;
   height: 100px;
-  background-color: red;
+  /*background-color: red;*/
   display: flex;
+  padding-top: 20px;
 }
 
-.container-left{
+.contents-left{
   width: 750px;
   background-color: blue;
   height: 50px;
+  box-sizing: border-box;
+  padding-right: 38px;
+  text-align: right;
 }
 
-.container-right{
+.contents-right{
   width: 350px;
   background-color: yellow;
   height: 50px;
