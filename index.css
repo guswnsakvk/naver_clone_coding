@@ -80,6 +80,8 @@
   background-color: #fff;
   border: none;
   outline: none;
+  box-sizing: border-box;
+  padding: 10px;
 }
 
 #keyboard_area{
@@ -192,10 +194,10 @@
 
 #contents_left{
   width: 750px;
-  background-color: blue;
+  /*background-color: blue;*/
   height: 50px;
   box-sizing: border-box;
-  padding-right: 38px;
+  padding-right: 30px;
 }
 
 #contents_right{
@@ -223,12 +225,44 @@
 #direct_area{
   text-align: right;
   position: absolute;
-  right: 0;
+  right: 12px;
   width: 200px;
   height: 20px;
   /*background-color: red;*/
 }
 
-.direct_area span{
+#direct_area span{
   margin-left: 5px;
+}
+
+#news_title{
+  display: flex;
+  margin-top: 15px;
+  position: relative;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+.news_title_left{
+  align-items: center;
+  display: flex;
+  /*background-color: red;*/
+  width: 400px;
+  height: 20px;
+}
+
+.news_title_left p{
+  margin-left: 5px;
+}
+
+.news_title_right{
+  position: absolute;
+  text-align: right;
+  right: 0;
+  width: 100px;
+  height: 20px;
+}
+
+.news_title_right i{
+  margin-left: 10px;
 }
