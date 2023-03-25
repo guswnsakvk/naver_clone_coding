@@ -19,6 +19,12 @@
   height: 100%;
 }
 
+.bg_size{
+  background-size: 60px 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .green_color{
   color: #19ce60;
 }
