@@ -2,6 +2,14 @@
   cursor: pointer;
 }
 
+.font_small{
+  font-size: 12px;
+}
+
+.font_middle{
+  font-size: 14px;
+}
+
 .text_underline:hover{
   text-decoration: underline;
 }
