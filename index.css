@@ -407,3 +407,36 @@
 .theme_head_right i:hover{
   color: gray;
 }
+
+#them_category_wrap{
+  margin-top: 10px;
+  height: 49px;
+  /*background-color: red;*/
+  display: flex;
+  box-sizing: border-box;
+  border: 1px solid #dae1e6;
+  position: relative;
+}
+
+.main_them{
+  width: 90px;
+  height: 49px;
+  box-sizing: border-box;
+  border-right: 1px solid #dae1e6;
+  line-height: 49px;
+  text-align: center;
+  font-size: 13px;
+}
+
+.main_them:last-child{
+  border-right: none;
+}
+
+.select_theme{
+  background-color: #19ce60;
+  color: #fff;
+}
+
+.hover_color:hover{
+  color: #19ce60;
+}
