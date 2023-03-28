@@ -446,7 +446,7 @@
 }
 
 #group_topstory{
-  height: 358px;
+  height: 333px;
   display: flex;
   /*background-color: red;*/
 }
@@ -526,4 +526,26 @@
 .theme_item_text p{
   margin-bottom: 5px;
   line-height: 16px;
+}
+
+#theme_link{
+  padding: 11px 18px;
+  background-color: #f7f9fa;
+  border: 1px solid #dae1e6;
+  display: flex;
+}
+
+.theme_link_home::after{
+  padding-left: 10px;
+  content: "|";
+  color: #a0a0a0;
+  width: 1px;
+}
+
+.list_service{
+  display: flex;
+}
+
+.list_service li{
+  padding: 0 12px;
 }
