@@ -49,6 +49,10 @@
   color: #2586ee;
 }
 
+.white_color{
+  color: #fff;
+}
+
 .btn{
   position: absolute;
   width: 40px;

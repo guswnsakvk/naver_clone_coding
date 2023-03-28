@@ -549,3 +549,61 @@
 .list_service li{
   padding: 0 12px;
 }
+
+#theme_title{
+  margin-top: 20px;
+  display: flex;
+}
+
+#theme_title p{
+  height: 25px;
+  line-height: 25px;
+}
+
+#theme_title p::after{
+  padding-left: 5px;
+  content: "|";
+  color: #a0a0a0;
+  width: 1px;
+}
+
+.title_sub_tab{
+  display: flex;
+  position: relative;
+}
+
+.title_sub_tab li{
+  display: inline-block;
+  height: 25px;
+  line-height: 25px;
+  padding: 0 10px;
+}
+
+.title_sub_tab li:first-child{
+  margin-left: 15px;
+}
+
+.title_sub_tab .tab_after::after{
+  width: 3px;
+  height: 3px;
+  background-color: #d7dce0;
+  border-radius: 50%;
+  display: inline-block;
+  content: '';
+  position: absolute;
+}
+
+.title_sub_tab .tab_after:nth-child(2):after{
+  left: 184px;
+  top: 12px;
+}
+
+.title_sub_tab .tab_after:nth-child(3):after{
+  left: 279px;
+  top: 12px;
+}
+
+.tab_on{
+  background-color: #66d171;
+  border-radius: 13px;
+}
