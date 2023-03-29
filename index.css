@@ -186,7 +186,7 @@
 #contents{
   width: 1100px;
   margin: 0 auto;
-  height: 1000px;
+  height: 2000px;
   /*background-color: red;*/
   display: flex;
   padding-top: 20px;
@@ -606,4 +606,76 @@
 .tab_on{
   background-color: #66d171;
   border-radius: 13px;
+}
+
+#chart_view_wrap{
+  display: flex;
+  margin-top: 15px;
+  width: 750px;
+  height: 410px;
+  /*background-color: red;*/
+  border-bottom: 1px solid #dae1e6;
+}
+
+.chart_view{
+  width: 355px;
+}
+
+.chart_view:last-child{
+  margin-left: 40px;
+}
+
+.chart_area{
+  height: 78px;
+  /*background-color: yellow;*/
+  padding: 14px 0;
+  box-sizing: border-box;
+  display: flex;
+  border-bottom: 1px solid #dae1e6;
+}
+
+.chart_area:last-child{
+  border: none;
+}
+
+.chart_area .chart_info:hover .chart_view_info .chart_view_title{
+  text-decoration: underline;
+}
+
+.chart_rank{
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+
+.chart_info{
+  display: flex;
+  width: 255px;
+  box-sizing: border-box;
+}
+
+.chart_info:hover .chart_view_img img{
+  transform: scale(1.1);
+}
+
+.chart_view_img{
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+}
+
+.chart_view_img img{
+  transition: all 0.2s linear;
+}
+
+.chart_view_info{
+  padding-left: 15px;
+}
+
+.chart_view_title{
+  margin-top: 6px;
+}
+
+.chart_view_dsc{
+  margin-top: 6px;
 }
