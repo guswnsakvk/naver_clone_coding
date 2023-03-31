@@ -33,6 +33,12 @@
   background-position: center;
 }
 
+.rectangle_poster{
+  width: 120px;
+  height: 175px;
+  overflow: hidden;
+}
+
 .green_color{
   color: #19ce60;
 }
