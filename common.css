@@ -18,6 +18,10 @@
   font-weight: 600;
 }
 
+.made_thickly:hover{
+  font-weight: 800;
+}
+
 .dot-size{
   font-size: 1px;
 }
@@ -99,4 +103,10 @@
   top: 50%;
   right: 0;
   transform: translate(50%, -50%);
+}
+
+.ranking_right_btn{
+  top: 25%;
+  right: 0;
+  transform: translate(50%, 50%);
 }
