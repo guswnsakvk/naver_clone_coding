@@ -43,6 +43,12 @@
   overflow: hidden;
 }
 
+.square_poster{
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+}
+
 .green_color{
   color: #19ce60;
 }
