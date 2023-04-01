@@ -116,3 +116,9 @@
   right: 0;
   transform: translate(50%, 50%);
 }
+
+.ranking_left_btn{
+  top: 25%;
+  left: 0;
+  transform: translate(-50%, 50%);
+}
