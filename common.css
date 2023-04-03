@@ -31,6 +31,11 @@
   height: 100%;
 }
 
+.login_size{
+  width: 100px;
+  height: 20px
+}
+
 .bg_size{
   background-size: 60px 20px;
   background-repeat: no-repeat;

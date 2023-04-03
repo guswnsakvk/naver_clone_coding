@@ -179,6 +179,10 @@
   margin-left: 7px;
 }
 
+.weather_alert:hover p:last-child{
+  text-decoration: underline;
+}
+
 #container{
   border-bottom: solid 2px #eee;
 }
@@ -199,11 +203,11 @@
   padding-right: 30px;
 }
 
-#contents_right{
+/*#contents_right{
   width: 350px;
   background-color: yellow;
   height: 50px;
-}
+}*/
 
 #news_header{
   position: relative;
@@ -826,4 +830,56 @@
   vertical-align: middle;
   content: '';
   margin-left: 5px;
+}
+
+#contents_right{
+  width: 350px;
+  /*background-color: yellow;*/
+  height: 50px;
+}
+
+#login_area{
+  padding: 15px;
+  background-color: #f7f9fa;
+  border: 1px solid #dae1e6;
+}
+
+#login_area .login_btn span:first-child{
+  font-size: 16px;
+}
+
+.login_btn{
+  background-color: #19ce60;
+  border: 1px solid #15c654;
+  padding: 15px 0;
+  margin-top: 11px;
+  border-radius: 2px;
+  text-align: center;
+}
+
+#login_sub_area{
+  margin-top: 11px;
+  position: relative;
+  display: flex;
+}
+
+#find_area{
+
+}
+
+.find_area_after::after{
+  background-color: grey;
+  display: inline-block;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  vertical-align: middle;
+  content: '';
+  margin-left: 5px;
+  margin-right: 2px;
+}
+
+#join_area{
+  position: absolute;
+  right: 0;
 }
