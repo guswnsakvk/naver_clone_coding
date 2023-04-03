@@ -127,3 +127,15 @@
   left: 0;
   transform: translate(-50%, 50%);
 }
+
+.news_issue_btn{
+  width: 16px;
+  height: 16px;
+  border: 1px solid #e4e8eb;
+  text-align: center;
+  line-height: 12px;
+}
+
+.news_issue_btn:first-child{
+  border-right: none;
+}
