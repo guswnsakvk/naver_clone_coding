@@ -912,3 +912,84 @@
   right: 15px;
   display: flex;
 }
+
+#footer{
+  background-color: #fafbfc;
+  padding: 40px 0 60px;
+}
+
+.footer_inner{
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.footer_inner .notice_area p:hover span:first-child{
+  text-decoration: underline;
+}
+
+.notice_area{
+  display: flex;
+  position: relative;
+  border-top: 1px solid #e4e8eb;
+  padding: 20px 0;
+}
+
+.notice_area p{
+  position: absolute;
+  right: 0;
+}
+
+.aside_area{
+  border-top: 1px solid #e4e8eb;
+  display: flex;
+}
+
+.partner_box_wrap{
+  width: 780px;
+}
+
+.partner_box{
+  display: flex;
+  padding: 5px 0;
+}
+
+.partner_box:first-child{
+  margin-top: 16px;
+}
+
+.partner_title{
+  width: 87px;
+}
+
+.footer_after::after{
+  content: "";
+  display: inline-block;
+  width: 1px;
+  height: 11px;
+  background-color: #e4e8eb;
+  vertical-align: -1px;
+  margin: 0 8px;
+}
+
+#service_box_wrap{
+  display: flex;
+}
+
+.service_box{
+  padding: 28px 0;
+  display: flex;
+}
+
+.service_box:first-child{
+  margin-right: 45px;
+}
+
+.service_info{
+  line-height: 18px;
+  margin-right: 10px;
+}
+
+#corp_area{
+  border-top: 1px solid #e4e8eb;
+  padding: 25px 0 0;
+}

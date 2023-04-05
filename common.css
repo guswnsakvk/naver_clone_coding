@@ -54,6 +54,11 @@
   overflow: hidden;
 }
 
+.service_box_img{
+  width: 48px;
+  height: 48px;
+}
+
 .green_color{
   color: #19ce60;
 }
