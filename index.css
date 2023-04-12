@@ -283,6 +283,18 @@
   margin-left: 5px;
 }
 
+.title_left_before::before{
+  background-color: #c7ccd1;
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  vertical-align: top;
+  content: '';
+  margin: 0 8px 0 4px;
+  vertical-align: 3px;
+}
+
 .news_title_right{
   position: absolute;
   text-align: right;
